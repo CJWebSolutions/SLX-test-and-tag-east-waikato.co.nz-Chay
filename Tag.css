@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+h1, h2, h3,h4{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;}
+.formbuilder-form input#submit-form , p .formbuilder-form label {
+    font-family: 'Raleway', sans-serif;}    
+#services p, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form label, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn {
+    color:#fff;}
+p, ul, ul li, ul a, ul a:hover, ul a:focus {
+    color: #fff;
+    font-size: 20px;}
+#banner p {
+    font-weight: 400;}
+#content h2, strong{
+    font-weight: 700;}
+.formbuilder-form label, ul li strong, h2, h3, .btn, .formbuilder-form input#submit-form,.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn , #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn {
+    text-transform: uppercase;}
+h3, #content h3 a, #header2, #header span, #header2a, #header2a p, #header2b a, #header2a a, .btn, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form,.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn , #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #contact2f, #contact h3, #contact p, #contact2e, #contact2c, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus {
+    text-decoration: none;}
+/*----------------------------------------------------------------
+    Buttons
+----------------------------------------------------------------*/
+.btn {
+    border-radius: 10px;
+    background: #333;}
+@media (min-width: 711px) {
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+    color: #fff;
+    border-radius: 10px;
+    background-color: #e17926;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);}
+}
+.btn, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn{text-shadow: none;}
+/*----------------------------------------------------------------
+    Forms & Button
+----------------------------------------------------------------*/
+.formbuilder-form input#submit-form {
+    border-radius: 10px;
+    background: rgba(64,64,64,0.8);}
+.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn {
+    background-color:#e17926;}
+
+.form, #contact_form_form, #quote_form_form {
+    background-color: #f58b16;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
+    border-radius:15px;}
+.formbuilder-form input, .formbuilder-form textarea, .formbuilder-form select {
+    border-radius: 5px;
+    background-color:#fff;}
+/*----------------------------------------------------------------
+    Header
+----------------------------------------------------------------*/
+#header2b a, #header1 p, #header span, #header2a, #header2a a, #banner p{color:#222;}
+#header2a, #header2a a {
+    padding-top: 0px;
+    font-size:40px;}
+#header2b{
+    font-size:20px;
+    line-height: 16px;}
+#header2{
+    padding-bottom: 30px;}
+
+/*----------------------------------------------------------------
+    Banner
+-------------------------------------0---------------------------*/
+#banner h1 {
+    color: #e17926;
+    font-weight: 500;
+    line-height: 75px;
+    font-size:70px;}
+.banner_cover {
+    opacity: 0.5;
+    background-color:#fff;}
+#banner1 {animation:move 2s ease; width: 100%;}
+@-webkit-keyframes move {from {transform: scale(0.8);opacity:0;} to {transform: scale(1.0);opacity:1;}}
+#banner1 img.img-responsive {margin: 0 auto;}
+/*----------------------------------------------------------------
+    Services, Content, Gallery
+----------------------------------------------------------------*/
+#content, #services{
+    border-top: 5px solid #e17926;}
+#services {
+    border-bottom: 5px solid #e17926;
+    padding: 50px 0 30px;}
+#service1,#service2,#service3,#service4{
+    transition: 0.2s 0.2s ease-out;
+    padding: 25px 10px 25px 10px;}
+#service1:hover,#service2:hover,#service3:hover,#service4:hover{
+    transform: scale(1.1);
+    background: rgba(255, 189, 112);
+    background: rgba(255, 189, 112, 0.4);}
+
+#content .img-responsive, #contact .img-responsive{
+    border: 10px solid #fff;
+    border-radius: 50%;
+    transition: 0.2s 0.2s ease-out;
+    box-shadow: 120px 20px 20px rgba(0, 0, 0, 0.17);}
+#content .img-responsive:hover, #contact .img-responsive:hover {
+    border: 10px #e17926 solid;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.17);}
+/*----------------------------------------------------------------
+    Contact
+----------------------------------------------------------------*/
+#contact2, #content6,#content5, #contact1b{display: none;}
+#contact1 {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;}
+#contact h2 {
+    color: #222;
+    text-align: center;}
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer *, footer a , footer {color: #fff;}
+footer {
+    background-color: #222;
+    border-top: 3px solid #e17926;
+    padding: 25px 0 25px;}
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+@media only screen and (min-width: 1200px){
+    #content1a,#content2b, #content3a, #content4b, #content5a{width: 55%;}
+    #content1b,#content2a, #content3b, #content4a, #content5b{width: 65%;}
+    #content img {width:100%;}
+}
+@media only screen and (max-width: 991px) and (min-width: 768px)  {#service1:hover,#service2:hover,#service3:hover,#service4:hover{transform: none;}}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    #header ul li:before, #content ul li:before, #services ul li:before, #contact1a ul li:before, #contact1b ul li:before, #contact2 ul li:before {
+        position: relative;
+        left: -2px;}
+    #header1 p {
+        padding:0px 0 0px 0;
+        line-height: 35px;}
+    #header2a, #header2a a {
+        line-height: 25px;}
+    #contact1 {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        padding: 20px;}
+    #header2 {padding-bottom: 140px;}
+    #header2b a{line-height: 37px;}
+    .formbuilder-form label{text-align:left;}
+    #banner {padding: 0px 0 150px;}
+    #service1:hover,#service2:hover,#service3:hover,#service4:hover{transform: scale(1.05);}
+}
+@media (max-width: 480px) {
+    #service1:hover,#service2:hover,#service3:hover,#service4:hover{transform: scale(1.0);}
+    #banner h1 {
+        line-height: 40px;
+        font-size: 45px;}
+    #banner p {font-size: 18px;}
+}
+@media (max-width: 1100px) {.content_block {padding-bottom: 0px;}}
+@media (max-width: 767px) {#service3 {clear:left }}
